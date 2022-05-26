@@ -1,118 +1,4 @@
-**Keyestudio 37 in 1 Sensor Kit V2.0**
-
-**for Arduino**
-
-**－Sensor kit for Arduino**
-
-**－Based on open-source hardware**
-
-**－37 sensors in one box**
-
-**－Build interactive projects**
-
-**Catalog**
-
-[1. Kit Introduction 5](#1-kit-introduction)
-
-[2. Kit List 6](#2-kit-list)
-
-[3.Install Arduino IDE and Driver 14](#3install-arduino-ide-and-driver)
-
-[（1）Installing Arduino IDE 14](#_Toc53)
-
-[（2）keyestudio V4.0 Development Board 15](#_Toc31955)
-
-[（3）keyestudio MEGA 2560 Board 19](#_Toc20662)
-
-[（4）Installing V4.0 board Driver 22](#_Toc24584)
-
-[（5）Arduino IDE Setting 28](#_Toc6288)
-
-[（6）Start First Program 32](#_Toc25901)
-
-[4.How to Add a Library? 37](#_Toc24490)
-
-[5. Project Details 43](#_Toc18023)
-
-[Project 1: LED Flash 43](#project-1-led-flash)
-
-[Project 2: RGB LED 48](#_Toc10336)
-
-[Project 3: Traffic Light 53](#project-3-traffic-light)
-
-[Project 4: Push Button 58](#project-4-push-button)
-
-[Project 5: Passive Buzzer 64](#project-5-passive-buzzer)
-
-[Project 6: Capacitive Touch 69](#project-6-capacitive-touch)
-
-[Project 7: Collision Flash 74](#project-7-collision-flash)
-
-[Project 8: Knock Sensor 79](#project-8-knock-sensor)
-
-[Project 9: Photo Interrupter 84](#project-9-photo-interrupter)
-
-[Project 10: Digital Tilt Sensor 89](#project-10-digital-tilt-sensor)
-
-[Project 11: PIR Motion Sensing 95](#project-11-pir-motion-sensing)
-
-[Project 12: Reed Switch 100](#_Toc31367)
-
-[Project 13: Hall Magnetic Sensor 106](#project-13-hall-magnetic-sensor)
-
-[Project 14: Line Tracking 111](#project-14-line-tracking)
-
-[Project 15: Flame Sensor 116](#project-15-flame-sensor)
-
-[Project 16: Infrared Obstacle Avoidance
-121](#project-16-infrared-obstacle-avoidance)
-
-[Project 17 : Photocell sensor 126](#project-17--photocell-sensor)
-
-[Project 18: Analog Sound Sensor 131](#project-18-analog-sound-sensor)
-
-[Project 19: Rotary Encoder 136](#project-19-rotary-encoder)
-
-[Project 20: Analog Gas Sensor 142](#project-20-analog-gas-sensor)
-
-[Project 21: Steam Moisture 147](#project-21-steam-moisture)
-
-[Project 22: TEMT6000 Ambient Light 153](#project-22-temt6000-ambient-light)
-
-[Project 23: LM35 Linear Temperature 159](#project-23-lm35-linear-temperature)
-
-[Project 24: DHT11 Temperature and Humidity
-165](#project-24-dht11-temperature-and-humidity)
-
-[Project 25: Magical Light Cup 172](#_Toc25646)
-
-[Project 26: Digital IR Transmitter 179](#project-26-digital-ir-transmitter)
-
-[Project 27: Digital IR Receiver 187](#project-27-digital-ir-receiver)
-
-[Project 28: Analog Ceramic Vibration 192](#_Toc28179)
-
-[Project 29: Ultraviolet Light 197](#_Toc6447)
-
-[Project 30: Triaxial Digital Acceleration Detection 203](#_Toc32022)
-
-[Project 31: Attitude Sensor 215](#project-31-attitude-sensor)
-
-[Project 32: Optical Proximity Detection
-227](#project-32-optical-proximity-detection)
-
-[Project 33: Potentiometer 238](#_Toc18769)
-
-[Project 34: HC-SR04 Ultrasonic Sensor
-243](#project-34-hc-sr04-ultrasonic-sensor)
-
-[Project 35: Joystick Module 250](#project-35-joystick-module)
-
-[Project 36: DS3231 Clock Module 256](#project-36-ds3231-clock-module)
-
-[Project 37: Relay Module 263](#project-37-relay-module)
-
-[4. Resources Download 268](#4-resources-download)
+**Keyestudio 37 in 1 Sensor Kit V2.0** **for Arduino**
 
 # 1. Kit Introduction
 
@@ -247,7 +133,7 @@ to a computer with a USB cable or power it via an external DC power jack (DC
 |-----------------------------|----------------------------------------------------------|
 | Operating Voltage           | 5V                                                       |
 | Input Voltage (recommended) | DC7-12V                                                  |
-| Digital I/O Pins            | 14 (D0-D13)  (of which 6 provide PWM output)             |
+| Digital I/O Pins            | 14 (D0-D13) (of which 6 provide PWM output)              |
 | PWM Digital I/O Pins        | 6 (D3, D5, D6, D9, D10, D11)                             |
 | Analog Input Pins           | 6 (A0-A5)                                                |
 | DC Current per I/O Pin      | 20 mA                                                    |
@@ -496,7 +382,7 @@ it with other sensors to do interesting interactive experiments.
 -   Emitting color: white
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 Connect the negative pin of LED module to GND, positive pin to VCC (3.3-5V),
 Signal pin to digital pin 7.
@@ -575,7 +461,7 @@ analog output to mix the three colors to generate different colors.
 -   Input: digital level
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts before connection:
 
@@ -687,7 +573,7 @@ Raspberry Pi system.
 -   Pin Pitch: 2.54mm
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 First, you need to prepare the following parts before connection:
 
@@ -830,7 +716,7 @@ footer 1 short connected with footer 2, footer 3 short connected with footer 4.
 ![](media/72b3ca8feec9f78ae591e2d777cc29a5.jpeg)
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -933,7 +819,7 @@ quite fun and simple.
 -   Interface type: digital
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -1037,7 +923,7 @@ touch. Its sensitivity decrease as isolation layer gets thicker.
 -   Interface: Digital
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -1142,7 +1028,7 @@ collision, light is off.
 -   **Signal pin (S):** connect to High-Low level output
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -1242,7 +1128,7 @@ electronic drum.
 Note: the working voltage of this module is 5V.
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -1357,7 +1243,7 @@ dispensing, general object detection, etc.
 -   Interface: Digital
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -1502,7 +1388,7 @@ must then be analyzed using extra circuitry.
 -   Interface: Digital
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -1600,7 +1486,7 @@ Conventional pyroelectric infrared sensors require body pyroelectric infrared
 detector, professional chip, complex peripheral circuit, so the size is bigger,
 with complex circuit, and lower reliability.
 
-**![](media/ce608db25742f19fdf6eceda756a59d9.png)**Now we launch this new
+\*\*![](media/ce608db25742f19fdf6eceda756a59d9.png)\*\*Now we launch this new
 pyroelectric infrared motion sensor, specially designed for Arduino.
 
 It uses an integrated digital body pyroelectric infrared sensor, has smaller
@@ -1627,7 +1513,7 @@ size, higher reliability, lower power consumption and simple peripheral circuit.
 -   Pin limit current: 100mA
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -1711,7 +1597,7 @@ displayed on the serial monitor.
 
 **Description:**
 
-**![](media/e580999515f6522eb603ea723bf62173.png)**Reed Switch is a special
+\*\*![](media/e580999515f6522eb603ea723bf62173.png)\*\*Reed Switch is a special
 switch and a main component for reed relay and proximity switch. Reed switch is
 usually comprised of two soft magnetic materials and metal reed contacts which
 will disconnect itself when there is no magnetic.
@@ -1750,7 +1636,7 @@ sensor(magnetic sensor). It can be used under high-risk environment.
 -   IO Interface: 3Pin (-/+/S)
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -1864,7 +1750,7 @@ Field Sensor.
 -   Detection range and magnetic field strength are proportional
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -1964,7 +1850,7 @@ by installing required line-tracking robot sensors.
 -   Output Level: TTL level
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -2054,7 +1940,7 @@ source.
 -   Interface: digital
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -2186,7 +2072,7 @@ A robot mounted with the sensor can sense changes in the environment.
 -   Effective Angle: 35°
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -2289,7 +2175,7 @@ night lights, sound and light control switches, etc.
 -   Working voltage: 5V
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -2375,7 +2261,7 @@ a voice operated switch.
 -   Detecting sound intensity
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -2466,7 +2352,7 @@ analog value from the IO port.
 -   Interface: Analog
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -2640,7 +2526,7 @@ In addition, the sensitivity can be adjusted by the potentiometer.
 -   Stable and long lifespan
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -2742,7 +2628,7 @@ water.
 -   **Negative pin (-):** for Ground (GND)
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -2927,7 +2813,7 @@ The LM35 linear temperature sensor is easily connected to Arduino shield.
 -   Functional range: 0 degree Celsius to 100 degree Celsius
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -3036,7 +2922,7 @@ connection, special packages can be provided according to users need.
 -   Interface: Digital
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -3351,7 +3237,7 @@ object in front of the receiver.
 -   Mounting hole: inner diameter is 3.2mm, spacing is 15mm
 
 **Hardware
-Connection**<https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection>**:**
+Connection**[https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/\#hardware-connection](https://www.elecfreaks.com/learn-en/Micro_bit_Starter_Kit_Lesson_01_LED/#hardware-connection)**:**
 
 To begin with, you need to prepare the following parts:
 
@@ -5208,11 +5094,11 @@ which is quite convenient!
 
 10)Supply voltage: +3.3V to +5.5V
 
-11) Digital temperature sensor with a precision of±3℃
+1.  Digital temperature sensor with a precision of±3℃
 
-12) Working temperature: -40 \~ C to +85 \~ C
+2.  Working temperature: -40 \~ C to +85 \~ C
 
-13) 16 pins Small Outline Package (300mil)
+3.  16 pins Small Outline Package (300mil)
 
 **Connection Diagram:**
 
